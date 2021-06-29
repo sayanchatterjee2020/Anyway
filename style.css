@@ -1,0 +1,567 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #dedede !important;
+}
+
+/* <!------------------------------- navbar -----------------------------------> */
+
+#navbar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar {
+    background-color: #dedede !important;
+}
+.navbar-nav li a{
+    /* color: black !important; */
+}
+.nav-link{
+    -webkit-background-clip: text;
+    color: transparent !important;
+    background-image: linear-gradient(to top left , rgb(6, 44, 168) , rgb(255, 0, 234)); 
+    font-weight: bold;
+}
+
+.sign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    background: linear-gradient(145deg, #c8c8c8, #eeeeee);
+    box-shadow:  3px 3px 6px #9b9b9b,
+             -3px -3px 6px #ffffff;
+    border: none;
+    outline: none;   
+    font-weight: bold;
+    color: rgb(50, 50, 50);         
+}
+.sign:hover{
+    border-radius: 10px;
+    background: #dedede;
+    box-shadow: inset 3px 3px 6px #9b9b9b,
+                inset -3px -3px 6px #ffffff;
+     -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(to top left , rgb(6, 44, 168) , rgb(255, 0, 234));              
+}
+
+.sign i{
+    font-size: 1rem;
+    margin-right: 0.5rem;
+    color: rgb(50, 50, 50);
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    background: linear-gradient(145deg, #c8c8c8, #eeeeee);
+    box-shadow:  3px 3px 6px #9b9b9b,
+             -3px -3px 6px #ffffff;
+    border: none;
+    outline: none;   
+    font-weight: bold;
+    color: rgb(50, 50, 50);     
+    min-width: 4rem;  
+             
+}
+.login:hover{
+    border-radius: 10px;
+    background: #dedede;
+    box-shadow: inset 3px 3px 6px #9b9b9b,
+                inset -3px -3px 6px #ffffff;    
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(to top left , rgb(6, 44, 168) , rgb(255, 0, 234));                     
+}
+
+.login i{
+    font-size: 1rem;
+    margin-right: 0.5rem;
+    color: rgb(50, 50, 50);
+}
+.drop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
+/* .dropdown-menu{
+ border-bottom: 7px solid orangered;
+} */
+.dropdown:hover .dropdown-menu {
+    display: block;
+    border-radius: 2px;
+    background: #dedede;
+    border: none;           
+}
+.dropdown-menu li a:hover{
+    border-radius: 2px;
+    background: #dedede;
+    box-shadow: inset 2px 2px 4px #9b9b9b,
+                inset -2px -2px 4px #ffffff;
+    font-weight: bold;
+    -webkit-background-clip: text !important;
+    color: transparent !important;
+    background-image: linear-gradient(to top left , rgb(6, 44, 168) , rgb(255, 0, 234)) !important;  
+}
+.logo{
+    min-height: 3rem;
+    min-width: 3rem;
+    border-radius: 10px;
+    background: linear-gradient(145deg, #c8c8c8, #eeeeee);
+    box-shadow:  3px 3px 6px #9b9b9b,
+             -3px -3px 6px #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;         
+}
+.logo img{
+    width: 2.5rem;
+    height: 2.5rem;
+} 
+/* .search{
+    margin-left: 3rem;
+} */
+.search input{
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background: #dedede;
+    box-shadow: inset 2px 2px 4px #9b9b9b,
+                inset -2px -2px 4px #ffffff;
+    min-width: 20rem;
+}
+
+/* <!------------------------------- Video -----------------------------------> */
+
+/* #video{
+    overflow: hidden;
+    height: 32rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* <!------------------------------- catousel -----------------------------------> */
+
+.carousel-inner img{
+    height: 20rem;
+}
+
+/* <!------------------------------- box -----------------------------------> */
+
+#box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3rem;
+}
+.box{
+    width: 18rem;
+    height: 23rem;
+    border-radius: 10px;
+    background: #dedede;
+    box-shadow:  3px 3px 6px #9b9b9b,
+             -3px -3px 6px #ffffff;
+}
+.sign-box{
+    width: 18rem;
+    height: 23rem;
+}
+.sign-in-box{
+    width: 18rem;
+    height: 10rem;
+    padding: 1rem;
+    border-radius: 10px;
+    background: #dedede;
+    box-shadow:  3px 3px 6px #9b9b9b,
+             -3px -3px 6px #ffffff;
+}
+.sign-box-text{
+    text-align: center;
+}
+.sign-box-text h3{
+    color: rgb(50,50,50);
+    text-transform: capitalize;
+}
+.sign-bottom-box{
+    width: 18rem;
+    height: 12rem;
+    border-radius: 10px;
+    margin-top: 1rem;
+    background: #dedede;
+    box-shadow:  3px 3px 6px #9b9b9b,
+             -3px -3px 6px #ffffff;
+    display: flex;
+    justify-content: center;
+}
+.sign-bottom-box img{
+    margin: 0.5rem;
+    width: 17rem;
+    height: 11rem;
+}
+
+.box-text{
+    margin: 1rem 1rem;
+    text-align: center;
+}
+.box-text h3{
+    color: rgb(50,50,50);
+    text-transform: capitalize;
+}
+.box img{
+    width: 8rem;
+    height: 7rem;
+}
+.box-top{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+.box-bottom{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+.big-box{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.big-box img{
+    width: 17rem;
+    height: 15rem;
+}
+.box-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.6rem;
+}
+.box-button button{
+    border-radius: 3px;
+    background: linear-gradient(145deg, #c8c8c8, #eeeeee);
+    box-shadow:  3px 3px 6px #9b9b9b,
+             -3px -3px 6px #ffffff;
+    border: none;
+    padding: 0.5rem 1rem ;
+    color: rgb(50,50,50);
+    font-weight: bold;
+}
+.box-button button:hover{
+    border-radius: 3px;
+    background: #dedede;
+    box-shadow: inset 3px 3px 6px #9b9b9b,
+                inset -3px -3px 6px #ffffff;   
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(to top left , rgb(6, 44, 168) , rgb(255, 0, 234));            
+}
+.sign-in-button{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sign-in-button button{
+    border-radius: 3px;
+    background: linear-gradient(145deg,rgb(255, 211, 65) , orange);
+    box-shadow:  3px 3px 6px #9b9b9b,
+             -3px -3px 6px #ffffff;
+    border: none;
+    padding: 0.5rem 3rem ;
+    color: rgb(50,50,50);
+    font-weight: bold;
+}
+.sign-in-button button:hover{
+    border-radius: 3px;
+    background: linear-gradient(145deg,orange,rgb(255, 211, 65));
+    box-shadow: inset 3px 3px 6px orange,
+                inset -3px -3px 6px rgb(255, 211, 65);  
+}
+
+/* <!------------------------------- banner1 -----------------------------------> */
+
+#banner{
+    margin: 1rem 0rem;
+    overflow: hidden;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+}
+
+/* ----------------- owl-carousel ----------------- */
+
+#owl-car{
+    margin-top: 3rem;
+}
+.owl-car{
+    height: 18rem ;
+    width: 15rem;
+    border-radius: 7px;
+    background: linear-gradient(145deg, #c8c8c8, #eeeeee);
+    box-shadow:  3px 3px 6px #9b9b9b,
+                 -3px -3px 6px #ffffff;
+    padding: 0.2rem;           
+}
+.owl-car-text h5{
+    font-size: 2rem;
+    margin-left: 2rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: rgb(50, 50, 50);
+    margin-bottom: 0.5rem;
+}
+.owl-car-text h5 button{
+    border-radius: 3px;
+    margin-left: 1rem;
+    background: linear-gradient(145deg, #c8c8c8, #eeeeee);
+    box-shadow:  3px 3px 6px #9b9b9b,
+             -3px -3px 6px #ffffff;
+    border: none;
+    padding: 0.5rem 1rem ;
+    color: rgb(50,50,50);
+    font-weight: bold;
+    font-size: 1rem;
+}
+.owl-car-text h5 button:hover{
+    border-radius: 3px;
+    background: #dedede;
+    box-shadow: inset 3px 3px 6px #9b9b9b,
+                inset -3px -3px 6px #ffffff;   
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(to top left , red , orangered); 
+}
+.owl-car img{
+    height: 15rem ;
+    width: 15rem;
+}
+.owl-car h5{
+    text-align: center;
+    margin-top: 0.5rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+/* <!------------------------------- sign-bottom-----------------------------------> */
+
+#sign-bottom{
+    padding: 1rem 0rem;
+    display: grid;
+    place-items: center;
+}
+.sign-bottom{
+    display: grid;
+    place-items: center;
+}
+.sign-bottom p{
+    padding: 0;
+    margin: 0;
+    font-weight: 600;
+}
+.sign-bottom a{
+    text-decoration: none;
+}
+.sign-bottom button{
+    padding: 0.3rem 6rem;
+    border: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    border-radius: 0.3rem;
+    color: rgba(0, 0, 0, 0.774);
+    margin: 0.5rem 0rem;
+    background: linear-gradient(145deg,rgb(255, 211, 65) , orange);
+    box-shadow:  3px 3px 6px #9b9b9b,
+             -3px -3px 6px #ffffff;
+}
+.sign-bottom button:hover{
+    border-radius: 0.3rem;
+    background: #dedede;
+    background: linear-gradient(145deg,orange,rgb(255, 211, 65));
+    box-shadow: inset 3px 3px 6px orange,
+                inset -3px -3px 6px rgb(255, 211, 65);   
+}
+
+/* <!---------------------------- Modal ----------------------------------> */
+
+.login-image{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    
+}
+.login-image img{
+    width: 6rem;
+    border-radius: 50%;
+    background: #dedede;
+    box-shadow:  5px 5px 10px #595959,
+                 -5px -5px 10px #ffffff;
+}
+.modal-body{
+    background-color: #dedede;
+}
+.modal-header{
+    background-color: #dedede;
+}
+.modal-header h5{
+color: rgb(185, 184, 184);
+font-size: 2rem;
+font-weight: bold;
+margin-left: 1rem;
+text-transform: uppercase;
+}
+.modal-header i{
+    font-size: 2rem;
+    color: rgb(185, 184, 184);
+}
+.modal-body form .mb-3 input{
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background: #dedede;
+    box-shadow: inset 2px 2px 4px #9b9b9b,
+                inset -2px -2px 4px #ffffff;
+    min-width: 20rem;
+    min-height: 3rem;
+}
+.modal-body form .mb-3 span{
+    border-radius: 10px;
+    background: #dedede;
+
+}
+.modal-body form button{
+    border-radius: 10px;
+    background: linear-gradient(145deg, #c8c8c8, #eeeeee);
+    box-shadow:  3px 3px 6px #9b9b9b,
+             -3px -3px 6px #ffffff;
+    padding-left: 4rem;
+    padding-right: 4rem;  
+    font-weight: bold;       
+}
+.modal-body form button:hover{
+    border-radius: 10px;
+    background: #dedede;
+    box-shadow: inset 3px 3px 6px #9b9b9b,
+                inset -3px -3px 6px #ffffff;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(to top left , rgb(6, 44, 168) , rgb(255, 0, 234));                  
+}
+.social-icon{
+    display: flex;
+    justify-content: center;
+    
+}
+.social-icon i{
+    margin: 0.5rem 1rem;
+    font-size: 1.3rem;
+    padding: 1rem;
+    border-radius: 7px;
+    background: linear-gradient(145deg, #c8c8c8, #eeeeee);
+    box-shadow:  3px 3px 6px #9b9b9b,
+                 -3px -3px 6px #ffffff;
+    
+}
+.social-icon i:hover{
+    border-radius: 7px;
+    background: #dedede;
+    box-shadow: inset 3px 3px 6px #9b9b9b,
+            inset -3px -3px 6px #ffffff;
+}
+.fa-facebook-f{
+    color: #4267B2;
+}
+.fa-google{
+    color: #0F9D58;
+}
+.fa-apple{
+    color: black;
+}
+
+
+
+
+/* <!------------------------------- footer -----------------------------------> */
+
+#footer{
+    margin-top: 1rem;
+    color: white;
+    background-image: linear-gradient(to top left ,rgb(3, 49, 80), rgb(7, 75, 121));
+}
+#footer h5{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+#footer h6{
+    text-transform: capitalize;
+}
+
+.back-to-top{
+    height: 3rem;
+    background-color: rgb(64, 71, 100);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+}
+.back-to-top:hover{
+    background-color: rgba(64, 71, 100, 0.618);
+    color: white;
+}
+.footer-logo{
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-logo img{
+    width: 4rem;
+}
+.footer-logo button{
+    margin-left: 2rem;
+}
+.footer-bottom{
+    background-color: rgb(3, 38, 61);
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
